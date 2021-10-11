@@ -1,0 +1,405 @@
+/*  
+    author: MD. Hafiz Bin Halim.
+    main: hbhlabib1@gmail.com
+    website: hafizbinhalim.com
+
+*/
+
+/*  
+
+    ====Index====
+    1. Header section.
+    2. banner
+    3.work
+    4.member.
+    5. Feature.
+    6. company.
+    7. Footer.
+
+*/
+
+/* Global css */
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Theme css */
+
+/* header css */
+
+.header-section{
+    padding: 15px 0px;
+}
+.cst-menu{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.cst-menu ul{
+    list-style: none;
+}
+.cst-menu ul li{
+    display: inline-block;
+}
+.cst-menu ul li a{
+    display: block;
+    width: 150px;
+    font-size: 14px;
+    text-decoration: none;
+    color: gray;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* header media */
+
+@media (max-width:500px){
+
+    .cst-logo{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .cst-menu ul li a{
+        width: 90px;
+        font-size: 9px;
+        font-weight: 500;
+    }
+
+}
+
+
+@media (min-width: 501px) and (max-width: 766px) {
+
+    .cst-logo{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .cst-menu ul li a{
+        width: 100px;
+        font-size: 9px;
+        font-weight: 600;
+    }
+
+
+}
+
+@media (min-width: 768.01px) and (max-width: 992px) {
+
+    .cst-menu ul li a{
+        width: 104px;
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .cst-menu{
+        padding: 4px 0px;
+    }
+
+}
+
+/* banner section */
+
+.banner-section{
+    background: url(./my-banner.jpg) no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding: 50px 0px;
+}
+.cst-banner-content{
+    color: white;
+    text-align: center;
+    padding: 50px 0px 100px;
+}
+
+.cst-banner-content h1 span{
+    font-weight: 300;
+    display: block;
+    margin: 25px 0px;
+}
+.cst-banner-content a{
+    display: block;
+    width: 25%;
+    margin: 50px auto;
+    background: #99c50a;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/* banner media */
+
+@media (max-width:500px){
+    .cst-banner-content a{
+        width: 40%;
+    }
+}
+
+
+@media (min-width: 501px) and (max-width: 766px) {
+
+    .cst-banner-content a{
+        width: 40%;
+    }
+
+}
+
+@media (min-width: 768.01px) and (max-width: 992px) {
+
+    .cst-banner-content a{
+        width: 40%;
+    }
+
+}
+
+/* our-work */
+
+.our-work{
+    padding: 80px 0px 50px;
+    text-align: center;
+    color: #515151;
+    font-weight: 400;
+}
+
+.cst-our-work h1{
+    font-size: 40px;
+    width: 75%;
+    margin: 20px auto;
+}
+.cst-our-work p{
+    line-height: 30px;
+}
+
+/* member section */
+
+.member-sec{
+    padding: 0px 0px 50px;
+}
+
+.cst-one{background: #e2f8ff;padding: 30px;text-align: center;}
+.cst-one img{
+    margin-top: 40px;
+}
+.cst-two{padding: 30px;background: #f5f9eb;text-align: center;}
+.cst-two img{
+    margin-top: 58px;
+}
+.cst-three{
+    text-align: left;
+}
+.cst-three h3{
+    font-size: 20px;
+    color: #515151;
+    margin: 20px 0px;
+}
+.cst-three p{
+    color: #515151;
+    line-height: 30px;
+}
+.cst-three a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background: #26a6d1;
+    width: 68%;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.cst-bt{
+    background: #add136 !important;
+}
+
+/* member section media*/
+
+@media (max-width:500px){
+    .cst-three{
+        text-align: center !important;
+    }
+
+    .cst-three a{
+        margin: 0px auto;
+    }
+
+    .cst-two img{
+        margin-top: 20px;
+    }
+
+}
+
+
+@media (min-width: 501px) and (max-width: 766px) {
+
+    .cst-three{
+        text-align: center !important;
+    }
+
+    .cst-three a{
+        margin: 0px auto;
+    }
+
+    .cst-two img{
+        margin-top: 20px;
+    }
+
+}
+
+@media (min-width: 768.01px) and (max-width: 992px) {
+
+    .cst-three{
+        text-align: center !important;
+    }
+
+    .cst-three a{
+        margin: 0px auto;
+    }
+
+    .cst-two img{
+        margin-top: 20px;
+    }
+
+}
+
+/* featured */
+
+.featured{
+    padding: 0px 0px 50px;
+}
+.cst-f-con{
+    padding: 50px 0px;
+    color: #686868;
+}
+.cst-f-con h1{
+    font-size: 25px;
+    margin: 0px 0px 25px;
+}
+.cst-f-con p{
+    line-height: 30px;
+}
+.cst-f-con a{
+    display: block;
+    background: #f9f9f9;
+    color: #686868;
+    text-decoration: none;
+    padding: 15px 0px;
+    text-align: center;
+    width: 35%;
+    margin: 45px auto 0;
+    border: 1px solid #686868;
+    border-radius: 10px;
+}
+.cst-card-body{
+    background: #f9f9f9;
+}
+.cst-card-body h6{
+    font-size: 20px;
+}
+
+.sigma span{
+    display: block;
+    width: 100%;
+    margin: 0px auto 20px;
+    border-bottom: 2px solid gray;
+}
+.sigma h5{
+    font-size: 14px;
+    text-align: center;
+    margin: 0px auto 20px;
+}
+.sigma i{
+    color: #63e963;
+    font-size: 25px;
+    display: inline-block;
+    width: 20px;
+    margin: -5px 0px 0px -30px;
+    text-align: left;
+}
+
+/* featured media */
+
+@media (max-width:500px){
+
+    .cst-f-con{
+        text-align: center;
+    }
+
+    .cst-c{
+        margin: 0 auto 20px;
+    }
+
+    .sigma i{
+        width: 20px;
+        margin: 0px auto auto;
+        text-align: left;
+        display: block;
+    }
+
+}
+
+
+@media (min-width: 501px) and (max-width: 766px) {
+
+    .cst-f-con{
+        text-align: center;
+    }
+
+    .cst-c{
+        margin: 0 auto 20px;
+    }
+
+    .sigma i{
+        width: 20px;
+        margin: 0px auto auto;
+        text-align: left;
+        display: block;
+    }
+
+
+}
+
+@media (min-width: 768.01px) and (max-width: 992px) {
+
+    .cst-f-con{
+        text-align: center;
+    }
+
+    .cst-c{
+        margin: 0 auto 20px;
+    }
+
+    .sigma i{
+        width: 20px;
+        margin: 0px auto auto;
+        text-align: left;
+        display: block;
+    }
+
+
+}
+
+/* f-footer */
+
+.f-footer{
+    padding: 0px 0px 30px;
+}
+
+/* footer */
+
+.cst-con{
+    border-top: 2px solid gray;
+}
+
+.cst-f-row{
+    text-align: center;
+    padding: 20px 0px;
+    color: gray;
+}
